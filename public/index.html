@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users</title>
+    <meta charset="utf-8">
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="dropdown">
+        <button class="dropbtn">Flights</button>
+        <div class="dropdown-content">
+          <a id="getALLF" href="#">Get ALL flights</a>
+          <form id="getF">
+            <input type="text" name="search" id="searchF" placeholder="Get a flight"/>
+            <input type="submit" value="search" id="getFL"/>
+          </form>
+          <a id="addF" href="#">Add a flight</a>
+          <a id="updateF" href="#">Update a flight</a>
+          <a id="deleteF" href="#">Delete a flight</a>
+        </div>
+    </div>
+      <div class="dropdown">
+        <button class="dropbtn">Airports</button>
+        <div class="dropdown-content">
+          <a id="getALLA" href="#">Get ALL airports</a> 
+          <form id="getA">
+          <input class="drpSearch" type="text" name="search" id="searchA" placeholder="Get an airport"/>
+          <input type="submit" value= "search" id="getAI"/>
+          </form>
+          <a id="addA" href="#">Add an airport</a>
+          <a id="updateA" href="#">Update an airport</a>
+          <a id="deleteA" href="#">Delete an airport</a>
+        </div>
+      </div>
+      <div id="data" class="display">
+      </div>
+  </body>
+  </html>

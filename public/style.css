@@ -1,0 +1,117 @@
+
+.dropbtn {
+    background-color: #2038c1;
+    color: white;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 32px;
+    font-family: sans-serif;
+    border: none;
+  }
+  .dropdown {
+    position: center;
+    display: inline-block;
+    justify-content: center;
+
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: sans-serif;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #294dde;}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(96, 96, 96);
+  position: center;
+  letter-spacing: 1px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: .8rem;
+}
+td {
+    text-align: center;
+    width: 50px;
+    border: 1px solid rgb(96, 96, 96);
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+th {
+    text-align: center;
+    width: 65px;
+    border: 1px solid rgb(96, 96, 96);
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.display {
+    position: center;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.drpSearch {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #2038c1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: sans-serif;
+  
+}
