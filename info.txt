@@ -1,0 +1,4 @@
+This is a one page project, no refresh, all uodated via 
+nodejs, and expressjs for making GET, PUT, POST, DELETE calls. 
+Database is initially created in SQLite3.
+
